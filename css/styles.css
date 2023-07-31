@@ -9,7 +9,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-image: url('image/背景.png'); /* 背景圖片 */
+  background-image: url('../image/背景.png'); /* 背景圖片 */
   background-size: 100% 100%;
   font-family: Arial, sans-serif;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body {
 /* 頁首區塊的樣式 */
 header {
   text-align: center;
-  background-image: url('image/頁首.png');
+  background-image: url('../image/頁首.png');
   background-size: 100% 100%;
 }
 
@@ -220,13 +220,13 @@ main {
 }
 
 :root {
-  --img-1: url('image/icon/11.png');
-  --img-2: url('image/icon/22.png');
-  --img-3: url('image/icon/33.png');
-  --img-4: url('image/icon/44.png');
-  --img-5: url('image/icon/55.png');
-  --img-6: url('image/icon/66.png');
-  --img-7: url('image/icon/77.png');
+  --img-1: url('../image/icon/11.png');
+  --img-2: url('../image/icon/22.png');
+  --img-3: url('../image/icon/33.png');
+  --img-4: url('../image/icon/44.png');
+  --img-5: url('../image/icon/55.png');
+  --img-6: url('../image/icon/66.png');
+  --img-7: url('../image/icon/77.png');
 
   /* 添加更多的圖片變數*/
 }
